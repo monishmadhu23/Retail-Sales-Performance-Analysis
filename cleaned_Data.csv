@@ -1,0 +1,250 @@
+Order_ID,Order_Date,Customer_Name,Region,Product,Category,Quantity,Price,Sales,Year,Month,Quarter,Data_Quality_Flag,Quantity_Flag,Price_Flag
+1,02-09-2023,Customer_24,East,Headphones,Electronics,3,10000,30000,2023,September,Q3,Original,Original,Original
+2,17-07-2023,Customer_27,East,Unknown Product,Accessories,4,5000,20000,2023,July,Q3,Product unknown,Original,Original
+3,21-12-2023,Customer_31,East,Unknown Product,Accessories,3,1000,3000,2023,December,Q4,Product unknown,Original,Original
+4,23-11-2023,Customer_32,South,Headphones,Accessories,3,10000,30000,2023,November,Q4,Imputed Category,Original,Imputed (Median)
+5,16-08-2023,Customer_12,South,Laptop,Electronics,2,10000,20000,2023,August,Q3,Original,Original,Imputed (Median)
+6,08-03-2023,Customer_29,South,Phone,Electronics,3,30000,90000,2023,March,Q1,Original,Imputed (Median),Original
+7,19-06-2023,Customer_12,South,Laptop,Electronics,3,10000,30000,2023,June,Q2,Date imputed (median); Category Imputed,Imputed (Median),Original
+8,08-05-2023,Customer_33,West,Laptop,Accessories,3,10000,30000,2023,May,Q2,Original,Imputed (Median),Original
+9,01-09-2023,Customer_7,West,Unknown Product,Unknown Category,3,5000,15000,2023,September,Q3,Product unknown; Category unknown,Imputed (Median),Original
+10,11-04-2023,Customer_35,East,Monitor,Accessories,5,10000,50000,2023,April,Q2,Original,Original,Imputed (Median)
+11,19-06-2023,Customer_13,South,Laptop,Electronics,4,1000,4000,2023,June,Q2,Date imputed (median),Original,Original
+12,23-03-2023,Customer_50,East,Tablet,Electronics,3,1000,3000,2023,March,Q1,Original,Imputed (Median),Original
+13,19-06-2023,Customer_8,West,Phone,Electronics,3,30000,90000,2023,June,Q2,Date imputed (median); Category Imputed,Original,Original
+14,25-08-2023,Unknown Customer,North,Monitor,Accessories,5,10000,50000,2023,August,Q3,Original,Original,Imputed (Median)
+15,30-04-2023,Customer_2,East,Laptop,Accessories,5,20000,100000,2023,April,Q2,Original,Original,Original
+16,19-06-2023,Customer_2,North,Laptop,Electronics,2,10000,20000,2023,June,Q2,Date imputed (median),Original,Imputed (Median)
+18,05-04-2023,Customer_33,West,Monitor,Electronics,3,1000,3000,2023,April,Q2,Imputed Category,Original,Original
+19,20-05-2023,Unknown Customer,South,Laptop,Electronics,1,10000,10000,2023,May,Q2,Original,Original,Original
+20,19-06-2023,Customer_35,South,Headphones,Accessories,1,5000,5000,2023,June,Q2,Date imputed (median); Category Imputed,Original,Original
+21,19-06-2023,Customer_44,North,Laptop,Electronics,3,1000,3000,2023,June,Q2,Date imputed (median),Imputed (Median),Original
+22,11-08-2023,Customer_1,South,Unknown Product,Accessories,2,20000,40000,2023,August,Q3,Product unknown,Original,Original
+23,16-05-2023,Unknown Customer,South,Monitor,Electronics,1,10000,10000,2023,May,Q2,Original,Original,Imputed (Median)
+24,11-01-2023,Customer_41,East,Unknown Product,Unknown Category,3,10000,30000,2023,January,Q1,Product unknown; Category unknown,Imputed (Median),Original
+25,18-07-2023,Customer_38,South,Tablet,Accessories,2,1000,2000,2023,July,Q3,Original,Original,Original
+26,05-09-2023,Customer_44,East,Tablet,Accessories,3,20000,60000,2023,September,Q3,Original,Imputed (Median),Original
+27,21-11-2023,Customer_46,South,Phone,Electronics,2,10000,20000,2023,November,Q4,Original,Original,Imputed (Median)
+28,03-08-2023,Customer_24,West,Phone,Accessories,2,10000,20000,2023,August,Q3,Original,Original,Imputed (Median)
+29,10-02-2023,Customer_46,South,Headphones,Electronics,3,5000,15000,2023,February,Q1,Original,Imputed (Median),Original
+30,16-03-2023,Customer_36,South,Laptop,Electronics,2,10000,20000,2023,March,Q1,Original,Original,Imputed (Median)
+31,30-03-2023,Unknown Customer,North,Unknown Product,Electronics,3,30000,90000,2023,March,Q1,Product unknown,Imputed (Median),Original
+32,16-12-2023,Customer_19,South,Monitor,Electronics,4,10000,40000,2023,December,Q4,Original,Original,Imputed (Median)
+33,20-10-2023,Customer_38,South,Tablet,Electronics,3,10000,30000,2023,October,Q4,Original,Imputed (Median),Imputed (Median)
+34,06-12-2023,Customer_27,South,Laptop,Electronics,3,10000,30000,2023,December,Q4,Imputed Category,Imputed (Median),Imputed (Median)
+35,26-10-2023,Customer_20,East,Laptop,Electronics,1,1000,1000,2023,October,Q4,Original,Original,Original
+36,18-02-2023,Unknown Customer,North,Headphones,Accessories,3,1000,3000,2023,February,Q1,Original,Original,Original
+37,29-08-2023,Customer_4,South,Headphones,Accessories,4,10000,40000,2023,August,Q3,Imputed Category,Original,Original
+38,05-08-2023,Customer_41,North,Monitor,Electronics,2,10000,20000,2023,August,Q3,Original,Original,Imputed (Median)
+39,17-04-2023,Customer_12,North,Unknown Product,Electronics,3,30000,90000,2023,April,Q2,Product unknown,Imputed (Median),Original
+40,22-01-2023,Customer_4,East,Phone,Electronics,3,10000,30000,2023,January,Q1,Original,Imputed (Median),Imputed (Median)
+41,19-03-2023,Customer_31,West,Tablet,Electronics,3,10000,30000,2023,March,Q1,Imputed Category,Imputed (Median),Original
+42,06-12-2023,Customer_38,South,Unknown Product,Electronics,2,10000,20000,2023,December,Q4,Product unknown,Original,Imputed (Median)
+43,10-01-2023,Customer_34,South,Monitor,Electronics,2,5000,10000,2023,January,Q1,Original,Original,Original
+44,09-06-2023,Customer_5,East,Laptop,Electronics,3,5000,15000,2023,June,Q2,Original,Original,Original
+45,04-10-2023,Customer_32,South,Headphones,Electronics,3,5000,15000,2023,October,Q4,Original,Imputed (Median),Original
+46,10-02-2023,Customer_42,North,Tablet,Electronics,5,20000,100000,2023,February,Q1,Imputed Category,Original,Original
+47,06-06-2023,Customer_37,West,Monitor,Accessories,3,10000,30000,2023,June,Q2,Original,Original,Imputed (Median)
+48,17-01-2023,Customer_25,South,Tablet,Accessories,5,10000,50000,2023,January,Q1,Original,Original,Imputed (Median)
+49,10-04-2023,Customer_15,North,Monitor,Accessories,3,10000,30000,2023,April,Q2,Original,Imputed (Median),Imputed (Median)
+50,20-04-2023,Customer_48,East,Laptop,Electronics,1,10000,10000,2023,April,Q2,Original,Original,Imputed (Median)
+51,25-06-2023,Customer_28,South,Unknown Product,Unknown Category,3,1000,3000,2023,June,Q2,Product unknown; Category unknown,Original,Original
+52,22-03-2023,Customer_42,South,Laptop,Electronics,5,1000,5000,2023,March,Q1,Original,Original,Original
+53,28-12-2023,Unknown Customer,West,Unknown Product,Unknown Category,1,10000,10000,2023,December,Q4,Product unknown; Category unknown,Original,Original
+54,16-03-2023,Customer_39,West,Unknown Product,Accessories,1,10000,10000,2023,March,Q1,Product unknown,Original,Imputed (Median)
+55,31-05-2023,Customer_19,East,Laptop,Electronics,2,30000,60000,2023,May,Q2,Original,Original,Original
+56,09-04-2023,Customer_38,East,Tablet,Accessories,3,1000,3000,2023,April,Q2,Original,Imputed (Median),Original
+57,09-11-2023,Customer_11,South,Laptop,Accessories,2,30000,60000,2023,November,Q4,Original,Original,Original
+58,25-09-2023,Customer_40,South,Unknown Product,Accessories,1,5000,5000,2023,September,Q3,Product unknown,Original,Original
+59,10-02-2023,Customer_9,East,Monitor,Electronics,5,10000,50000,2023,February,Q1,Imputed Category,Original,Imputed (Median)
+60,02-05-2023,Customer_45,East,Laptop,Electronics,4,5000,20000,2023,May,Q2,Original,Original,Original
+61,10-03-2023,Customer_21,East,Headphones,Accessories,2,30000,60000,2023,March,Q1,Original,Original,Original
+62,19-12-2023,Customer_40,East,Phone,Electronics,4,10000,40000,2023,December,Q4,Imputed Category,Original,Original
+63,09-04-2023,Customer_37,South,Headphones,Electronics,4,10000,40000,2023,April,Q2,Original,Original,Original
+64,19-06-2023,Customer_32,East,Tablet,Electronics,3,20000,60000,2023,June,Q2,Date imputed (median); Category Imputed,Imputed (Median),Original
+65,28-04-2023,Customer_14,East,Monitor,Accessories,5,10000,50000,2023,April,Q2,Original,Original,Imputed (Median)
+66,20-11-2023,Customer_42,South,Laptop,Electronics,3,30000,90000,2023,November,Q4,Original,Original,Original
+67,19-12-2023,Customer_13,North,Laptop,Electronics,3,10000,30000,2023,December,Q4,Imputed Category,Imputed (Median),Original
+68,03-09-2023,Customer_45,South,Tablet,Electronics,3,20000,60000,2023,September,Q3,Original,Imputed (Median),Original
+69,16-08-2023,Customer_48,East,Phone,Electronics,2,20000,40000,2023,August,Q3,Original,Original,Original
+70,24-09-2023,Customer_28,East,Laptop,Electronics,4,10000,40000,2023,September,Q3,Imputed Category,Original,Original
+71,07-01-2023,Customer_15,North,Laptop,Accessories,4,20000,80000,2023,January,Q1,Original,Original,Original
+72,28-02-2023,Customer_26,East,Phone,Electronics,3,30000,90000,2023,February,Q1,Original,Imputed (Median),Original
+73,02-12-2023,Customer_27,West,Monitor,Accessories,3,5000,15000,2023,December,Q4,Original,Original,Original
+74,07-02-2023,Customer_2,South,Unknown Product,Accessories,2,10000,20000,2023,February,Q1,Product unknown,Original,Original
+75,20-04-2023,Customer_20,North,Laptop,Electronics,2,30000,60000,2023,April,Q2,Original,Original,Original
+76,26-12-2023,Unknown Customer,South,Monitor,Accessories,5,20000,100000,2023,December,Q4,Original,Original,Original
+77,04-11-2023,Customer_47,East,Laptop,Accessories,5,30000,150000,2023,November,Q4,Original,Original,Original
+78,02-12-2023,Customer_43,East,Headphones,Electronics,2,10000,20000,2023,December,Q4,Original,Original,Original
+79,01-11-2023,Customer_5,North,Monitor,Electronics,3,5000,15000,2023,November,Q4,Imputed Category,Imputed (Median),Original
+80,10-12-2023,Customer_44,North,Laptop,Electronics,3,10000,30000,2023,December,Q4,Original,Imputed (Median),Original
+81,22-02-2023,Customer_23,East,Unknown Product,Unknown Category,5,10000,50000,2023,February,Q1,Product unknown; Category unknown,Original,Original
+82,10-01-2023,Customer_33,West,Phone,Electronics,2,5000,10000,2023,January,Q1,Original,Original,Original
+83,22-03-2023,Customer_22,East,Monitor,Electronics,3,10000,30000,2023,March,Q1,Original,Imputed (Median),Imputed (Median)
+84,02-07-2023,Unknown Customer,East,Unknown Product,Accessories,2,10000,20000,2023,July,Q3,Product unknown,Original,Imputed (Median)
+85,15-07-2023,Customer_12,South,Tablet,Accessories,3,30000,90000,2023,July,Q3,Original,Imputed (Median),Original
+86,28-07-2023,Customer_8,South,Headphones,Electronics,3,1000,3000,2023,July,Q3,Original,Imputed (Median),Original
+87,19-06-2023,Customer_6,West,Tablet,Accessories,5,10000,50000,2023,June,Q2,Original,Original,Original
+88,29-10-2023,Unknown Customer,East,Laptop,Electronics,3,5000,15000,2023,October,Q4,Imputed Category,Original,Original
+89,27-08-2023,Customer_32,East,Monitor,Electronics,5,10000,50000,2023,August,Q3,Imputed Category,Original,Imputed (Median)
+90,13-08-2023,Customer_21,East,Laptop,Electronics,3,10000,30000,2023,August,Q3,Imputed Category,Original,Original
+91,13-11-2023,Customer_6,North,Headphones,Electronics,1,10000,10000,2023,November,Q4,Original,Original,Original
+92,11-04-2023,Customer_31,South,Tablet,Electronics,2,30000,60000,2023,April,Q2,Original,Original,Original
+93,31-03-2023,Customer_3,West,Monitor,Accessories,3,10000,30000,2023,March,Q1,Original,Imputed (Median),Imputed (Median)
+94,09-07-2023,Customer_33,North,Phone,Electronics,3,30000,90000,2023,July,Q3,Imputed Category,Imputed (Median),Original
+95,11-02-2023,Customer_17,South,Tablet,Electronics,5,30000,150000,2023,February,Q1,Imputed Category,Original,Original
+96,21-12-2023,Customer_26,South,Monitor,Electronics,3,30000,90000,2023,December,Q4,Original,Original,Original
+97,26-02-2023,Customer_46,West,Laptop,Electronics,5,5000,25000,2023,February,Q1,Original,Original,Original
+98,06-08-2023,Unknown Customer,North,Tablet,Accessories,3,1000,3000,2023,August,Q3,Original,Imputed (Median),Original
+99,05-10-2023,Customer_3,West,Headphones,Accessories,2,20000,40000,2023,October,Q4,Original,Original,Original
+100,11-02-2023,Customer_44,North,Laptop,Accessories,3,5000,15000,2023,February,Q1,Original,Imputed (Median),Original
+101,17-06-2023,Customer_30,East,Monitor,Electronics,1,5000,5000,2023,June,Q2,Original,Original,Original
+102,27-05-2023,Customer_23,North,Monitor,Electronics,3,5000,15000,2023,May,Q2,Imputed Category,Imputed (Median),Original
+103,26-05-2023,Customer_13,South,Laptop,Electronics,5,10000,50000,2023,May,Q2,Imputed Category,Original,Imputed (Median)
+104,03-10-2023,Customer_31,North,Tablet,Electronics,1,5000,5000,2023,October,Q4,Original,Original,Original
+105,04-07-2023,Customer_28,South,Laptop,Electronics,5,5000,25000,2023,July,Q3,Imputed Category,Original,Original
+106,05-02-2023,Customer_25,North,Headphones,Accessories,3,5000,15000,2023,February,Q1,Original,Imputed (Median),Original
+107,03-08-2023,Customer_24,West,Tablet,Electronics,2,10000,20000,2023,August,Q3,Original,Original,Imputed (Median)
+108,17-05-2023,Customer_23,East,Tablet,Accessories,3,10000,30000,2023,May,Q2,Original,Imputed (Median),Imputed (Median)
+109,10-03-2023,Customer_16,East,Monitor,Electronics,3,10000,30000,2023,March,Q1,Original,Original,Original
+110,14-06-2023,Customer_12,South,Monitor,Electronics,3,30000,90000,2023,June,Q2,Imputed Category,Imputed (Median),Original
+111,18-02-2023,Customer_29,South,Phone,Electronics,3,10000,30000,2023,February,Q1,Original,Original,Original
+112,14-03-2023,Unknown Customer,East,Laptop,Electronics,4,10000,40000,2023,March,Q1,Original,Original,Imputed (Median)
+113,19-06-2023,Customer_31,East,Monitor,Electronics,5,30000,150000,2023,June,Q2,Date imputed (median); Category Imputed,Original,Original
+114,24-02-2023,Customer_14,East,Monitor,Accessories,4,5000,20000,2023,February,Q1,Original,Original,Original
+115,14-06-2023,Customer_2,East,Unknown Product,Unknown Category,5,10000,50000,2023,June,Q2,Product unknown; Category unknown,Original,Imputed (Median)
+116,20-01-2023,Customer_45,South,Laptop,Electronics,3,20000,60000,2023,January,Q1,Imputed Category,Imputed (Median),Original
+117,02-12-2023,Unknown Customer,South,Tablet,Electronics,2,5000,10000,2023,December,Q4,Original,Original,Original
+118,18-11-2023,Customer_10,South,Tablet,Electronics,5,20000,100000,2023,November,Q4,Original,Original,Original
+119,24-02-2023,Customer_11,East,Laptop,Electronics,3,30000,90000,2023,February,Q1,Original,Original,Original
+120,17-07-2023,Customer_28,South,Headphones,Electronics,2,30000,60000,2023,July,Q3,Original,Original,Original
+121,23-05-2023,Customer_22,North,Phone,Electronics,3,20000,60000,2023,May,Q2,Original,Original,Original
+122,27-05-2023,Customer_21,East,Unknown Product,Unknown Category,2,1000,2000,2023,May,Q2,Product unknown; Category unknown,Original,Original
+123,05-06-2023,Customer_16,South,Laptop,Electronics,3,20000,60000,2023,June,Q2,Original,Original,Original
+124,10-07-2023,Customer_34,South,Unknown Product,Electronics,3,1000,3000,2023,July,Q3,Product unknown,Imputed (Median),Original
+125,19-06-2023,Customer_35,East,Headphones,Electronics,5,5000,25000,2023,June,Q2,Date imputed (median),Original,Original
+126,22-06-2023,Customer_34,South,Headphones,Electronics,2,10000,20000,2023,June,Q2,Original,Original,Original
+127,26-07-2023,Customer_6,West,Laptop,Electronics,2,5000,10000,2023,July,Q3,Original,Original,Original
+128,02-03-2023,Customer_40,East,Monitor,Electronics,4,20000,80000,2023,March,Q1,Original,Original,Original
+129,28-01-2023,Customer_8,North,Laptop,Electronics,2,10000,20000,2023,January,Q1,Original,Original,Imputed (Median)
+130,19-06-2023,Customer_2,East,Tablet,Electronics,2,10000,20000,2023,June,Q2,Original,Original,Imputed (Median)
+131,21-09-2023,Customer_9,South,Unknown Product,Electronics,5,10000,50000,2023,September,Q3,Product unknown,Original,Imputed (Median)
+132,19-06-2023,Customer_26,East,Unknown Product,Accessories,1,30000,30000,2023,June,Q2,Date imputed (median); Product unknown,Original,Original
+133,17-07-2023,Customer_33,East,Unknown Product,Electronics,3,10000,30000,2023,July,Q3,Product unknown,Imputed (Median),Imputed (Median)
+134,19-06-2023,Customer_20,East,Headphones,Accessories,3,1000,3000,2023,June,Q2,Date imputed (median); Category Imputed,Imputed (Median),Original
+135,23-05-2023,Customer_36,North,Tablet,Electronics,3,1000,3000,2023,May,Q2,Original,Imputed (Median),Original
+136,19-06-2023,Customer_35,South,Monitor,Accessories,5,30000,150000,2023,June,Q2,Date imputed (median),Original,Original
+137,05-05-2023,Customer_30,East,Laptop,Electronics,3,10000,30000,2023,May,Q2,Imputed Category,Imputed (Median),Imputed (Median)
+138,19-06-2023,Customer_50,South,Headphones,Accessories,3,1000,3000,2023,June,Q2,Date imputed (median); Category Imputed,Original,Original
+139,02-04-2023,Customer_49,South,Headphones,Accessories,4,20000,80000,2023,April,Q2,Imputed Category,Original,Original
+140,27-05-2023,Customer_46,South,Headphones,Accessories,2,5000,10000,2023,May,Q2,Imputed Category,Original,Original
+141,01-01-2023,Customer_17,South,Tablet,Electronics,2,10000,20000,2024,January,Q1,Original,Original,Imputed (Median)
+142,28-03-2023,Customer_17,South,Monitor,Electronics,1,10000,10000,2023,March,Q1,Original,Original,Original
+143,24-09-2023,Customer_10,East,Unknown Product,Electronics,3,10000,30000,2023,September,Q3,Product unknown,Imputed (Median),Imputed (Median)
+144,07-12-2023,Customer_17,South,Phone,Electronics,1,10000,10000,2023,December,Q4,Imputed Category,Original,Imputed (Median)
+145,19-06-2023,Customer_9,West,Phone,Electronics,4,10000,40000,2023,June,Q2,Date imputed (median); Category Imputed,Original,Imputed (Median)
+146,26-01-2023,Customer_43,South,Laptop,Accessories,3,30000,90000,2023,January,Q1,Original,Imputed (Median),Original
+147,05-12-2023,Customer_50,East,Tablet,Electronics,1,20000,20000,2023,December,Q4,Original,Original,Original
+148,29-04-2023,Customer_5,East,Laptop,Electronics,3,30000,90000,2023,April,Q2,Imputed Category,Original,Original
+149,18-02-2023,Unknown Customer,North,Tablet,Electronics,2,30000,60000,2023,February,Q1,Original,Original,Original
+150,28-01-2023,Customer_25,North,Laptop,Electronics,1,30000,30000,2023,January,Q1,Imputed Category,Original,Original
+151,03-02-2023,Unknown Customer,East,Monitor,Electronics,2,10000,20000,2023,February,Q1,Original,Original,Imputed (Median)
+152,03-05-2023,Customer_37,North,Tablet,Accessories,4,5000,20000,2023,May,Q2,Original,Original,Original
+153,19-06-2023,Customer_17,South,Phone,Electronics,3,5000,15000,2023,June,Q2,Date imputed (median); Category Imputed,Original,Original
+154,25-05-2023,Customer_35,East,Unknown Product,Accessories,2,1000,2000,2023,May,Q2,Product unknown,Original,Original
+155,28-10-2023,Customer_27,South,Phone,Electronics,4,20000,80000,2023,October,Q4,Imputed Category,Original,Original
+156,23-10-2023,Customer_17,East,Tablet,Electronics,2,10000,20000,2023,October,Q4,Original,Original,Imputed (Median)
+157,10-05-2023,Customer_23,East,Unknown Product,Electronics,3,10000,30000,2023,May,Q2,Product unknown,Imputed (Median),Original
+158,24-08-2023,Customer_3,South,Monitor,Accessories,3,30000,90000,2023,August,Q3,Original,Imputed (Median),Original
+159,19-12-2023,Customer_10,South,Headphones,Electronics,3,30000,90000,2023,December,Q4,Original,Imputed (Median),Original
+160,19-06-2023,Customer_16,South,Unknown Product,Electronics,5,20000,100000,2023,June,Q2,Date imputed (median); Product unknown,Original,Original
+161,13-09-2023,Customer_5,West,Monitor,Electronics,5,10000,50000,2023,September,Q3,Imputed Category,Original,Original
+162,19-06-2023,Customer_26,South,Tablet,Electronics,3,10000,30000,2023,June,Q2,Date imputed (median); Category Imputed,Original,Imputed (Median)
+163,19-06-2023,Customer_45,East,Phone,Electronics,1,10000,10000,2023,June,Q2,Date imputed (median),Original,Imputed (Median)
+164,28-08-2023,Customer_5,South,Phone,Electronics,1,20000,20000,2023,August,Q3,Imputed Category,Original,Original
+165,22-08-2023,Customer_23,South,Monitor,Electronics,1,10000,10000,2023,August,Q3,Original,Original,Original
+166,05-05-2023,Customer_48,West,Headphones,Electronics,3,1000,3000,2023,May,Q2,Original,Original,Original
+167,20-06-2023,Customer_41,South,Monitor,Accessories,2,10000,20000,2023,June,Q2,Original,Original,Imputed (Median)
+168,19-06-2023,Customer_31,North,Laptop,Electronics,5,20000,100000,2023,June,Q2,Date imputed (median); Category Imputed,Original,Original
+169,26-03-2023,Customer_48,East,Monitor,Electronics,3,30000,90000,2023,March,Q1,Original,Imputed (Median),Original
+170,13-02-2023,Unknown Customer,West,Monitor,Accessories,5,1000,5000,2023,February,Q1,Original,Original,Original
+171,19-07-2023,Customer_32,South,Unknown Product,Unknown Category,3,5000,15000,2023,July,Q3,Product unknown; Category unknown,Imputed (Median),Original
+172,19-06-2023,Customer_18,West,Tablet,Accessories,4,5000,20000,2023,June,Q2,Date imputed (median),Original,Original
+173,22-08-2023,Customer_35,East,Laptop,Electronics,3,20000,60000,2023,August,Q3,Original,Original,Original
+174,19-06-2023,Customer_50,South,Laptop,Electronics,3,10000,30000,2023,June,Q2,Date imputed (median); Category Imputed,Imputed (Median),Imputed (Median)
+175,13-06-2023,Customer_35,South,Monitor,Electronics,3,10000,30000,2023,June,Q2,Original,Original,Imputed (Median)
+176,17-08-2023,Customer_18,North,Unknown Product,Accessories,3,5000,15000,2023,August,Q3,Product unknown,Imputed (Median),Original
+177,19-06-2023,Customer_17,South,Headphones,Accessories,3,10000,30000,2023,June,Q2,Date imputed (median),Imputed (Median),Imputed (Median)
+178,11-07-2023,Unknown Customer,East,Laptop,Electronics,1,10000,10000,2023,July,Q3,Original,Original,Imputed (Median)
+179,11-11-2023,Customer_49,South,Headphones,Accessories,3,20000,60000,2023,November,Q4,Original,Original,Original
+180,10-01-2023,Customer_19,East,Tablet,Accessories,3,5000,15000,2023,January,Q1,Original,Imputed (Median),Original
+181,21-05-2023,Customer_47,West,Monitor,Accessories,1,10000,10000,2023,May,Q2,Original,Original,Imputed (Median)
+182,19-06-2023,Customer_1,South,Laptop,Electronics,3,20000,60000,2023,June,Q2,Date imputed (median),Original,Original
+183,10-09-2023,Customer_44,North,Tablet,Electronics,3,10000,30000,2023,September,Q3,Original,Imputed (Median),Original
+184,10-02-2023,Customer_20,North,Phone,Electronics,3,5000,15000,2023,February,Q1,Original,Original,Original
+185,24-07-2023,Customer_34,South,Unknown Product,Accessories,5,1000,5000,2023,July,Q3,Product unknown,Original,Original
+186,12-04-2023,Customer_18,West,Phone,Electronics,3,10000,30000,2023,April,Q2,Imputed Category,Original,Imputed (Median)
+187,03-03-2023,Customer_5,East,Laptop,Electronics,3,1000,3000,2023,March,Q1,Original,Original,Original
+188,23-09-2023,Customer_19,South,Laptop,Accessories,5,10000,50000,2023,September,Q3,Original,Original,Original
+189,18-06-2023,Customer_33,South,Tablet,Electronics,1,10000,10000,2023,June,Q2,Original,Original,Imputed (Median)
+190,16-06-2023,Customer_20,North,Laptop,Electronics,4,1000,4000,2023,June,Q2,Original,Original,Original
+191,19-06-2023,Customer_29,South,Phone,Electronics,3,1000,3000,2023,June,Q2,Date imputed (median); Category Imputed,Original,Original
+192,19-06-2023,Customer_24,East,Unknown Product,Unknown Category,2,1000,2000,2023,June,Q2,Date imputed (median); Product unknown; Category unknown,Original,Original
+193,28-04-2023,Customer_39,North,Laptop,Electronics,2,1000,2000,2023,April,Q2,Original,Original,Original
+194,23-10-2023,Customer_14,East,Laptop,Electronics,4,5000,20000,2023,October,Q4,Original,Original,Original
+195,08-12-2023,Unknown Customer,South,Headphones,Accessories,2,5000,10000,2023,December,Q4,Original,Original,Original
+196,09-03-2023,Customer_1,West,Monitor,Electronics,1,20000,20000,2023,March,Q1,Original,Original,Original
+197,24-02-2023,Customer_27,South,Tablet,Electronics,2,10000,20000,2023,February,Q1,Original,Original,Imputed (Median)
+198,09-02-2023,Customer_44,West,Monitor,Electronics,3,30000,90000,2023,February,Q1,Original,Original,Original
+199,01-06-2023,Customer_32,South,Monitor,Accessories,3,10000,30000,2023,June,Q2,Original,Imputed (Median),Imputed (Median)
+200,06-01-2023,Customer_19,North,Monitor,Electronics,3,20000,60000,2023,January,Q1,Imputed Category,Original,Original
+201,18-07-2023,Customer_35,East,Unknown Product,Unknown Category,3,10000,30000,2023,July,Q3,Product unknown; Category unknown,Imputed (Median),Original
+202,30-07-2023,Customer_7,East,Tablet,Electronics,3,1000,3000,2023,July,Q3,Original,Imputed (Median),Original
+203,27-12-2023,Unknown Customer,South,Phone,Accessories,2,1000,2000,2023,December,Q4,Original,Original,Original
+204,10-06-2023,Customer_12,South,Headphones,Accessories,1,10000,10000,2023,June,Q2,Imputed Category,Original,Original
+205,30-12-2023,Customer_49,South,Phone,Accessories,5,10000,50000,2023,December,Q4,Original,Original,Imputed (Median)
+206,25-01-2023,Customer_6,West,Headphones,Accessories,1,30000,30000,2023,January,Q1,Imputed Category,Original,Original
+207,05-08-2023,Customer_2,West,Laptop,Electronics,3,10000,30000,2023,August,Q3,Imputed Category,Original,Imputed (Median)
+208,12-06-2023,Unknown Customer,East,Monitor,Electronics,4,10000,40000,2023,June,Q2,Original,Original,Imputed (Median)
+209,14-01-2023,Customer_44,West,Monitor,Accessories,4,10000,40000,2023,January,Q1,Original,Original,Imputed (Median)
+210,25-02-2023,Customer_14,East,Headphones,Accessories,2,10000,20000,2023,February,Q1,Original,Original,Original
+211,19-06-2023,Customer_49,South,Unknown Product,Electronics,3,30000,90000,2023,June,Q2,Date imputed (median); Product unknown,Imputed (Median),Original
+212,19-10-2023,Customer_47,North,Headphones,Accessories,1,30000,30000,2023,October,Q4,Imputed Category,Original,Original
+213,31-05-2023,Customer_2,East,Unknown Product,Electronics,3,10000,30000,2023,May,Q2,Product unknown,Original,Imputed (Median)
+214,15-06-2023,Customer_12,West,Phone,Accessories,1,5000,5000,2023,June,Q2,Original,Original,Original
+215,20-10-2023,Customer_28,North,Headphones,Accessories,2,10000,20000,2023,October,Q4,Original,Original,Original
+216,19-07-2023,Customer_26,East,Unknown Product,Accessories,1,30000,30000,2023,July,Q3,Product unknown,Original,Original
+217,20-01-2023,Customer_16,South,Phone,Accessories,3,30000,90000,2023,January,Q1,Original,Imputed (Median),Original
+218,08-09-2023,Customer_27,South,Headphones,Accessories,3,30000,90000,2023,September,Q3,Original,Imputed (Median),Original
+219,13-12-2023,Customer_5,East,Laptop,Electronics,2,5000,10000,2023,December,Q4,Original,Original,Original
+220,24-09-2023,Customer_49,West,Monitor,Electronics,5,10000,50000,2023,September,Q3,Imputed Category,Original,Imputed (Median)
+221,02-08-2023,Unknown Customer,North,Phone,Electronics,3,5000,15000,2023,August,Q3,Imputed Category,Original,Original
+222,19-04-2023,Customer_8,West,Laptop,Electronics,3,30000,90000,2023,April,Q2,Original,Imputed (Median),Original
+223,25-11-2023,Customer_47,South,Unknown Product,Unknown Category,3,10000,30000,2023,November,Q4,Product unknown; Category unknown,Imputed (Median),Imputed (Median)
+224,06-12-2023,Customer_46,South,Tablet,Electronics,2,10000,20000,2023,December,Q4,Imputed Category,Original,Original
+225,01-12-2023,Customer_49,North,Headphones,Accessories,5,5000,25000,2023,December,Q4,Original,Original,Original
+226,01-10-2023,Customer_47,West,Monitor,Electronics,2,1000,2000,2023,October,Q4,Original,Original,Original
+227,19-06-2023,Customer_11,East,Phone,Accessories,3,20000,60000,2023,June,Q2,Date imputed (median),Original,Original
+228,23-08-2023,Customer_40,East,Headphones,Accessories,3,5000,15000,2023,August,Q3,Original,Imputed (Median),Original
+229,29-09-2023,Customer_39,North,Laptop,Accessories,1,10000,10000,2023,September,Q3,Original,Original,Imputed (Median)
+230,07-12-2023,Customer_28,East,Monitor,Electronics,3,10000,30000,2023,December,Q4,Imputed Category,Imputed (Median),Imputed (Median)
+231,16-10-2023,Customer_2,North,Unknown Product,Unknown Category,5,20000,100000,2023,October,Q4,Product unknown; Category unknown,Original,Original
+232,26-09-2023,Customer_4,North,Phone,Electronics,2,10000,20000,2023,September,Q3,Original,Original,Original
+233,19-06-2023,Customer_3,South,Tablet,Accessories,2,5000,10000,2023,June,Q2,Date imputed (median),Original,Original
+234,11-06-2023,Customer_14,North,Laptop,Electronics,3,1000,3000,2023,June,Q2,Original,Imputed (Median),Original
+235,11-05-2023,Customer_35,North,Headphones,Accessories,3,10000,30000,2023,May,Q2,Original,Original,Imputed (Median)
+236,19-06-2023,Customer_44,North,Unknown Product,Accessories,5,10000,50000,2023,June,Q2,Date imputed (median); Product unknown,Original,Imputed (Median)
+237,10-09-2023,Customer_7,West,Headphones,Electronics,2,10000,20000,2023,September,Q3,Original,Original,Imputed (Median)
+238,14-07-2023,Customer_4,East,Phone,Accessories,5,10000,50000,2023,July,Q3,Original,Original,Original
+239,20-08-2023,Customer_10,South,Tablet,Electronics,3,10000,30000,2023,August,Q3,Original,Imputed (Median),Original
+240,26-08-2023,Customer_32,South,Laptop,Accessories,3,10000,30000,2023,August,Q3,Original,Imputed (Median),Imputed (Median)
+241,13-05-2023,Customer_27,South,Laptop,Electronics,3,10000,30000,2023,May,Q2,Imputed Category,Imputed (Median),Original
+242,19-03-2023,Customer_7,North,Unknown Product,Accessories,1,5000,5000,2023,March,Q1,Product unknown,Original,Original
+243,13-10-2023,Customer_30,East,Tablet,Accessories,3,10000,30000,2023,October,Q4,Original,Imputed (Median),Imputed (Median)
+244,04-01-2023,Customer_9,West,Monitor,Electronics,1,10000,10000,2023,January,Q1,Original,Original,Imputed (Median)
+245,24-12-2023,Unknown Customer,West,Phone,Accessories,2,10000,20000,2023,December,Q4,Original,Original,Imputed (Median)
+246,07-01-2023,Customer_39,East,Phone,Electronics,2,10000,20000,2023,January,Q1,Original,Original,Original
+247,21-12-2023,Unknown Customer,East,Monitor,Electronics,2,20000,40000,2023,December,Q4,Original,Original,Original
+248,31-03-2023,Customer_5,South,Phone,Accessories,1,30000,30000,2023,March,Q1,Original,Original,Original
+249,31-03-2023,Customer_11,East,Unknown Product,Unknown Category,2,10000,20000,2023,March,Q1,Product unknown; Category unknown,Original,Imputed (Median)
+250,11-06-2023,Customer_50,East,Unknown Product,Electronics,2,1000,2000,2023,June,Q2,Product unknown,Original,Original
